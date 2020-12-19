@@ -1,0 +1,76 @@
+Manifest-Version: 1.0
+Main-Class: Functionality_Impl
+Class-Path: logback-classic-1.3.0-alpha4.jar error_prone_annotations-2.2
+ .0.jar listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar l
+ ogback-core-1.3.0-alpha4.jar jersey-client-1.19.jar commons-beanutils-1
+ .9.3.jar hadoop-mapreduce-client-jobclient-3.2.1.jar hadoop-client-3.2.
+ 1.jar htrace-core4-4.1.0-incubating.jar jackson-annotations-2.9.8.jar c
+ ommons-text-1.4.jar aopalliance-1.0.jar hadoop-yarn-api-3.2.1.jar jsr31
+ 1-api-1.1.1.jar token-provider-1.0.1.jar kerb-util-1.0.1.jar javax.serv
+ let-api-3.1.0.jar activation-1.1.jar jackson-xc-1.9.2.jar kerb-common-1
+ .0.1.jar accessors-smart-1.2.jar jackson-jaxrs-1.9.2.jar kerb-server-1.
+ 0.1.jar commons-codec-1.11.jar commons-io-2.5.jar jettison-1.1.jar jers
+ ey-core-1.19.jar paranamer-2.3.jar hadoop-mapreduce-client-core-3.2.1.j
+ ar jersey-servlet-1.19.jar snappy-java-1.0.5.jar zookeeper-3.4.13.jar j
+ ackson-jaxrs-json-provider-2.9.8.jar hadoop-annotations-3.2.1.jar hadoo
+ p-auth-3.2.1.jar httpcore-4.4.10.jar kerby-asn1-1.0.1.jar json-smart-2.
+ 3.jar asm-5.0.4.jar commons-cli-1.2.jar jsr305-3.0.2.jar kerby-pkix-1.0
+ .1.jar jackson-databind-2.9.8.jar dnsjava-2.1.7.jar jersey-server-1.19.
+ jar jetty-servlet-9.3.24.v20180605.jar curator-framework-2.13.0.jar had
+ oop-yarn-common-3.2.1.jar avro-1.7.7.jar jackson-core-2.9.8.jar stax2-a
+ pi-3.1.4.jar jcip-annotations-1.0-1.jar kerby-config-1.0.1.jar j2objc-a
+ nnotations-1.1.jar jackson-core-asl-1.9.13.jar curator-client-2.13.0.ja
+ r jaxb-api-2.2.11.jar jline-0.9.94.jar failureaccess-1.0.jar jersey-gui
+ ce-1.19.jar guava-27.0-jre.jar hadoop-mapreduce-client-common-3.2.1.jar
+  cloudsim-plus-5.4.3.jar checker-qual-2.5.2.jar javax.inject-1.jar gson
+ -2.8.2.jar kerb-simplekdc-1.0.1.jar jetty-webapp-9.3.24.v20180605.jar o
+ khttp-2.7.5.jar httpclient-4.5.6.jar slf4j-api-1.8.0-beta2.jar kerby-xd
+ r-1.0.1.jar curator-recipes-2.13.0.jar scala-library-2.13.3.jar jersey-
+ json-1.19.jar commons-compress-1.18.jar jackson-mapper-asl-1.9.13.jar c
+ ommons-collections-3.2.2.jar kerb-core-1.0.1.jar nimbus-jose-jwt-4.41.1
+ .jar audience-annotations-0.5.0.jar woodstox-core-5.0.3.jar hadoop-comm
+ on-3.2.1.jar jsp-api-2.1.jar jackson-module-jaxb-annotations-2.9.8.jar 
+ jetty-util-9.3.24.v20180605.jar commons-net-3.6.jar kerby-util-1.0.1.ja
+ r kerb-identity-1.0.1.jar kerb-crypto-1.0.1.jar kerb-admin-1.0.1.jar je
+ tty-xml-9.3.24.v20180605.jar commons-configuration2-2.1.1.jar jackson-j
+ axrs-base-2.9.8.jar jetty-security-9.3.24.v20180605.jar scala-xml_2.13-
+ 1.3.0.jar hadoop-yarn-client-3.2.1.jar javax.mail-1.6.0.jar commons-lan
+ g3-3.8.1.jar commons-collections4-4.1.jar animal-sniffer-annotations-1.
+ 17.jar commons-math3-3.6.1.jar config-1.4.0.jar hadoop-hdfs-client-3.2.
+ 1.jar commons-logging-1.2.jar guice-4.0.jar jaxb-impl-2.2.3-1.jar jansi
+ .jar jline.jar scala-compiler.jar scala-library.jar scala-reflect.jar s
+ cala-xml_2.12.jar actions_2.12-1.4.0.jar caffeine-2.8.5.jar checker-qua
+ l-3.4.1.jar collections_2.12-1.4.0.jar command_2.12-1.4.0.jar compiler-
+ bridge_2.12-1.4.0.jar compiler-interface-1.4.0.jar completion_2.12-1.4.
+ 0.jar config-1.3.3.jar core-macros_2.12-1.4.0.jar disruptor-3.4.2.jar e
+ rror_prone_annotations-2.4.0.jar file-tree-views-2.1.4.jar gigahorse-co
+ re_2.12-0.5.0.jar gigahorse-okhttp_2.12-0.5.0.jar io_2.12-1.4.0.jar ipc
+ socket-1.1.0.jar ivy-2.3.0-sbt-839fad1cdc07cf6fc81364d74c323867230432ad
+ .jar jansi-1.18.jar jline-2.14.7-sbt-5e51b9d4f9631ebfa29753ce4accc57808
+ e7fd6b.jar jline-reader-3.16.0.jar jline-terminal-3.16.0-sbt-211a082ed6
+ 326908dc84ca017ce4430728f18a8a.jar jline-terminal-3.16.0.jar jline-term
+ inal-jansi-3.16.0.jar jline-terminal-jna-3.16.0.jar jna-5.5.0.jar jna-p
+ latform-5.5.0.jar jsch-0.1.54.jar launcher-interface-1.1.5.jar librarym
+ anagement-core_2.12-1.4.0.jar librarymanagement-ivy_2.12-1.4.0.jar lm-c
+ oursier-shaded_2.12-2.0.0.jar log4j-api-2.11.2.jar log4j-core-2.11.2.ja
+ r log4j-slf4j-impl-2.11.2.jar logic_2.12-1.4.0.jar main-settings_2.12-1
+ .4.0.jar main_2.12-1.4.0.jar okhttp-3.14.2.jar okhttp-urlconnection-3.7
+ .0.jar okio-1.17.2.jar protocol_2.12-1.4.0.jar reactive-streams-1.0.2.j
+ ar run_2.12-1.4.0.jar sbinary_2.12-0.5.1.jar sbt-1.4.0.jar scala-parser
+ -combinators_2.12-1.1.2.jar scala-reflect-2.12.12.jar scala-xml_2.12-1.
+ 3.0.jar scripted-plugin_2.12-1.4.0.jar shaded-jawn-parser_2.12-0.9.0.ja
+ r shaded-scalajson_2.12-1.0.0-M4.jar sjson-new-core_2.12-0.9.0.jar sjso
+ n-new-murmurhash_2.12-0.9.0.jar sjson-new-scalajson_2.12-0.9.0.jar slf4
+ j-api-1.7.26.jar ssl-config-core_2.12-0.4.0.jar task-system_2.12-1.4.0.
+ jar tasks_2.12-1.4.0.jar template-resolver-0.1.jar test-agent-1.4.0.jar
+  test-interface-1.0.jar testing_2.12-1.4.0.jar util-cache_2.12-1.4.0.ja
+ r util-control_2.12-1.4.0.jar util-interface-1.4.0.jar util-logging_2.1
+ 2-1.4.0.jar util-position_2.12-1.4.0.jar util-relation_2.12-1.4.0.jar u
+ til-tracking_2.12-1.4.0.jar zero-allocation-hashing-0.10.1.jar zinc-api
+ info_2.12-1.4.0.jar zinc-classfile_2.12-1.4.0.jar zinc-classpath_2.12-1
+ .4.0.jar zinc-compile-core_2.12-1.4.0.jar zinc-compile_2.12-1.4.0.jar z
+ inc-core_2.12-1.4.0.jar zinc-lm-integration_2.12-1.4.0.jar zinc-persist
+ -core-assembly-1.4.0.jar zinc-persist_2.12-1.4.0.jar zinc_2.12-1.4.0.ja
+ r log4j-1.2.17.jar okio-1.6.0.jar kerb-client-1.0.1.jar re2j-1.1.jar pr
+ otobuf-java-2.5.0.jar
+
